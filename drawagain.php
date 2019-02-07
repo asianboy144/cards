@@ -1,5 +1,5 @@
 <?php
-
+require('functions.php');
 session_start();
 require 'vendor/autoload.php';
 $client = new \GuzzleHttp\Client();
